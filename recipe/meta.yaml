@@ -1,5 +1,5 @@
 {% set name = "loki-logger-handler" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/loki_logger_handler-{{ version }}.tar.gz
-  sha256: 198832d8d1fde37001cd07f05310eb28289d665742f8d7cae7dd0260fee0cfcf
+  sha256: 790b013447d34e11f7b21d6c10241856c1ac19a10dfe6661bbfe10c378049e1a
 
 build:
   noarch: python
